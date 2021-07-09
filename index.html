@@ -11,17 +11,20 @@
 	<link rel="stylesheet" type="text/css" href="css/typing.css">
 </head>
 <body>
-	<div id="main">
-		<div id="msgScreen" class="center">
-			<h1>Game of Guess</h1>
-			<div class="typewriter">
-			<p>You have to guess and find out the correct number with <b>"minimum number of attempts"</b>.</p>
+	<audio id="typingSound"><source src="sounds/mixkit-typing-on-an-electronic-device-1376.wav" type="audio/wav" autoplay></audio>
+	<audio id="clickSound"><source src="sounds/mixkit-game-click-1114.wav" type="audio/wav"></audio>
+		<div id="main">
+			<div id="msgScreen" class="center">
+				<h1>Game of Guess</h1>
+				<div class="typewriter">
+					<p>You have to guess and find out the correct number with <b>"minimum number of attempts"</b>.</p>
+				</div>
+				<button class="game-button">Next</button>
 			</div>
-			<button class="game-button">Next</button>
+			<div id="userInput"></div>
 		</div>
-		<div id="userInput"></div>
-	</div>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
-</html>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/sound.js"></script>
+	</body>
+	</html>
