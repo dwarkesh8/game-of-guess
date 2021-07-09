@@ -1,3 +1,4 @@
+#main {display:none;}
 @font-face {
 	font-family: Plaguard-ZVnjx;
 	src: url(../fonts/Plaguard-ZVnjx.otf);
@@ -11,15 +12,17 @@ body {
 	width: auto;
 	padding: 10px;
 }
-#msgScreen {
-	margin-top: 10px;
-	/*min-height: 100px;*/
-	/*max-height: 100px;*/
-	/*min-width: 600px;*/
-	/*max-width: 600px;*/
+#screens {
+	margin: 10px;
+	padding: 10px;
 	border: 3px #23a8ae solid;
 	border-radius: 10px;
 	background-color: #fff;
 	text-align: center;
 	color: #d52626;
+}
+input[type=text] {
+	padding: 10px;
+	font-size: 20px;
+	border: 2px black solid;
 }
