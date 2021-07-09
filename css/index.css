@@ -17,12 +17,13 @@ body {
 	padding: 10px;
 	border: 3px #23a8ae solid;
 	border-radius: 10px;
-	background-color: #fff;
+	background-color: aqua;
 	text-align: center;
 	color: #d52626;
 }
 input[type=text] {
 	padding: 10px;
+	font-family: Plaguard-ZVnjx;
 	font-size: 20px;
 	border: 2px black solid;
 }

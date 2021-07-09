@@ -32,9 +32,9 @@
 						</div>
 					</div>
 					<div id="screen3" class="center" hidden>
-						<img src="images/giphy.gif" style="height: 30%; width: 30%;" alt="question mark">
+						<img src="images/question.gif" style="height: 30%; width: 30%;" alt="gif image" id="gifImage">
 						<div class="typewriter">
-							<h3>Submit your Answer</h3>
+							<h3 id="response">Submit your Answer</h3>
 							<input type="text" id="answer" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
 						</div>
 					</div>
@@ -42,9 +42,11 @@
 				<button class="game-button" id="next">Next</button>
 				<button class="game-button" id="start" hidden>Start</button>
 				<button class="game-button" id="submitNumber" hidden>Submit</button>
+				<button class="game-button" id="restartGame" hidden>Restart Game</button>
 				<div id="userInput"></div>
 			</div>
 			<script type="text/javascript" src="js/jquery.min.js"></script>
 			<script type="text/javascript" src="js/script.js"></script>
+			<script type="text/javascript" src="js/cookie.js"></script>
 		</body>
 		</html>
